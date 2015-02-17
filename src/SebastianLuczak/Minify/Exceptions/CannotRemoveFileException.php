@@ -1,3 +1,3 @@
-<?php  namespace CeesVanEgmond\Minify\Exceptions; 
+<?php  namespace SebastianLuczak\Minify\Exceptions; 
 
 class CannotRemoveFileException extends \Exception{}

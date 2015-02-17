@@ -1,10 +1,10 @@
-<?php  namespace CeesVanEgmond\Minify\Providers;
+<?php  namespace SebastianLuczak\Minify\Providers;
 
-use CeesVanEgmond\Minify\Exceptions\CannotRemoveFileException;
-use CeesVanEgmond\Minify\Exceptions\CannotSaveFileException;
-use CeesVanEgmond\Minify\Exceptions\DirNotExistException;
-use CeesVanEgmond\Minify\Exceptions\DirNotWritableException;
-use CeesVanEgmond\Minify\Exceptions\FileNotExistException;
+use SebastianLuczak\Minify\Exceptions\CannotRemoveFileException;
+use SebastianLuczak\Minify\Exceptions\CannotSaveFileException;
+use SebastianLuczak\Minify\Exceptions\DirNotExistException;
+use SebastianLuczak\Minify\Exceptions\DirNotWritableException;
+use SebastianLuczak\Minify\Exceptions\FileNotExistException;
 use Countable;
 
 abstract class BaseProvider implements Countable

@@ -1,8 +1,8 @@
-<?php  namespace CeesVanEgmond\Minify;
+<?php  namespace SebastianLuczak\Minify;
 
-use CeesVanEgmond\Minify\Exceptions\InvalidArgumentException;
-use CeesVanEgmond\Minify\Providers\JavaScript;
-use CeesVanEgmond\Minify\Providers\StyleSheet;
+use SebastianLuczak\Minify\Exceptions\InvalidArgumentException;
+use SebastianLuczak\Minify\Providers\JavaScript;
+use SebastianLuczak\Minify\Providers\StyleSheet;
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;
 use Request;
@@ -60,7 +60,7 @@ class Minify
    * @param array $attributes
    * @return string
    */
-  public function javascript($file, $attributes = array()) {
+  public function script($file, $attributes = array()) {
     $this->provider = new JavaScript(public_path());
     $this->buildPath = $this->config['js_build_path'];
     $this->attributes = $attributes;
@@ -75,7 +75,7 @@ class Minify
    * @param array $attributes
    * @return string
    */
-  public function stylesheet($file, $attributes = array()) {
+  public function style($file, $attributes = array()) {
     $this->provider = new StyleSheet(public_path());
     $this->buildPath = $this->config['css_build_path'];
     $this->attributes = $attributes;

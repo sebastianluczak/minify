@@ -50,8 +50,8 @@ return array(
     |--------------------------------------------------------------------------
     |
     | You can set the base URL for the links generated with the configuration 
-	| value. By default if empty HTTP_HOST would be used.
+    | value. By default if empty HTTP_HOST would be used.
     |
     */
-	'base_url' => ''
+    'base_url' => ''
 );

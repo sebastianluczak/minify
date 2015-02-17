@@ -1,12 +1,12 @@
 {
-  "name": "ceesvanegmond/minify",
+  "name": "sebastianluczak/minify",
   "keywords": ["minify", "laravel"],
   "description": "A package for minifying styles and javascript ",
   "license": "MIT",
   "authors": [
     {
-      "name": "Cees van Egmond",
-      "email": "cees@ceesvanegmond.com"
+      "name": "Sebastian Łuczak",
+      "email": "sebastianmluczak@gmail.com"
     }
   ],
   "require": {
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-0": {
-      "CeesVanEgmond\\Minify": "src/"
+      "SebastianLuczak\\Minify": "src/"
     }
   },
   "minimum-stability": "stable"
